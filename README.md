@@ -12,6 +12,8 @@ After reading through the questions and answers below, you need to dive into som
 Here is the URL to the samples projects provided by Microsoft. They are pretty good for understanding how to code using the bot framework.
 https://github.com/microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore 
 
+Enjoy you set of questions on Microsoft Bot Framework v4 here -
+
 
 Q: Which card to use to render a video?
 
