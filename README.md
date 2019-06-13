@@ -1,5 +1,7 @@
 This project has been created for Microsoft Bot Framework v4. This is not for Bot Framework v3.
+
 This is a step by step process to help newbies into the Microsoft Bot framework V4.
+
 Prerequisites - Basic knowledge of .Net and C#
 
 Here's the link to the bot framework documentation. My notes were created on reading through the documentation.
@@ -9,10 +11,12 @@ https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure
 After you have gone through the concepts, you can dive into the questions and answers below.
 
 After reading through the questions and answers below, you need to dive into some code. Always remember, this is a shorter version of the Concepts, design and develop modules of the bot framework documentation. Detailed explaination is always found at the Microsoft Bot framework documentation.
+
 Here is the URL to the samples projects provided by Microsoft. They are pretty good for understanding how to code using the bot framework.
 https://github.com/microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore 
 
-Enjoy you set of questions on Microsoft Bot Framework v4 here -
+-
+
 
 
 Q: Which card to use to render a video?
