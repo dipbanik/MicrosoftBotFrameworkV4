@@ -59,7 +59,7 @@ Q: How does adapters work and elaborate about the process from user to bot and b
 
 Q: What is an adapter and how is it related to the turn context?
 
-	The adapter, an integrated component of the SDK, is the core of the SDK runtime. The activity is carried as JSON in the HTTP POST body. This JSON is deserialized to create the Activity object that is then handed to the adapter with a call to process activity method. On receiving the activity, the adapter creates a turn context and calls the middleware.
+	Adapters provide an abstraction for your bot to work with a variety of environments. The adapter, an integrated component of the SDK, is the core of the SDK runtime. The activity is carried as JSON in the HTTP POST body. This JSON is deserialized to create the Activity object that is then handed to the adapter with a call to process activity method. On receiving the activity, the adapter creates a turn context and calls the middleware.
 	
 	A bot is directed by it's adapter, which can be thought of as the conductor for your bot. The adapter is responsible for directing incoming and outgoing communication, authentication, and so on. The adapter differs based on it's environment (the adapter internally works differently locally versus on Azure) but in each instance it achieves the same goal. Adapters provide an abstraction for your bot to work with a variety of environments.
 
