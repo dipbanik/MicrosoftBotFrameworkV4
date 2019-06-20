@@ -255,5 +255,10 @@ Q: Which class is used for managing state?
 
 	BotState class is the base class to manage state. Derived classes, like ConversationState and UserState, provide a StorageKeyFactory which is used to determine the key used to persist a given storage object.
 
+Q: How is an activity received by a bot? How is it processed?
+
+	An activity comes in as a JSON HTTP POST task. It is desearialised into an activity object. The adapter then takes over and calls the respective activity method and the middleware. Finally we use the turnContext to send back an activity.
+	
+
 
 
